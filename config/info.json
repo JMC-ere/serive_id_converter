@@ -4,6 +4,7 @@
     "DB_PORT": "2541",
     "DB_NAME": "TESTDOJDB",
     "DB_USER": "HANAROCMS",
-    "DB_PW": "hanarocms@!34"
+    "DB_PW": "hanarocms@!34",
+    "READ_COUNT": 5
   }
 }

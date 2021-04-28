@@ -44,3 +44,13 @@ def convert_service_id(conn, logger):
     for m in data_list:
         for n in m:
             print(n)
+
+
+# create table nudge_stb_map
+# (
+#     stb_id varchar(200) not null comment 'STB ID',
+#     user_service_num varchar(200) not null comment '서비스번호',
+#     insert_dt varchar(8) null comment '적재일자',
+#     use_yn varchar(1) default 'Y' not null comment '사용여부',
+#     primary key (stb_id, user_service_num)
+# )

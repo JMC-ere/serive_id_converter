@@ -6,6 +6,7 @@ from src.get_service_id_with_xl import read_xl
 def make_dict_factory(cursor):
     column_names = [d[0] for d in cursor.description]
 
+
     def create_row(*args):
         return dict(zip(column_names, args))
 
